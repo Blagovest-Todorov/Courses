@@ -40,7 +40,7 @@ namespace Cources
             {
                 Console.WriteLine($"{kvp.Key}: {kvp.Value.Count}");
 
-                kvp.Value.Sort(); // We sort the list kvp.Vaslue and change/records its content to sorted ascending ! 
+                kvp.Value.Sort(); // We sort the list kvp.Value and change/rewrite its content to sorted ascending ! 
 
                 foreach (var student in kvp.Value ) // kvp.Value --is the List of students !!!
                 {
